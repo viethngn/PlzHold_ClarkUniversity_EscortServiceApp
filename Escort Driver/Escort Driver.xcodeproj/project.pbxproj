@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591C1A8B2270F35A000E7464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C1A8A2270F35A000E7464 /* AppDelegate.swift */; };
+		591C1A8D2270F35A000E7464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C1A8C2270F35A000E7464 /* ViewController.swift */; };
+		591C1A902270F35A000E7464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591C1A8E2270F35A000E7464 /* Main.storyboard */; };
+		591C1A922270F35A000E7464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591C1A912270F35A000E7464 /* Assets.xcassets */; };
+		591C1A952270F35A000E7464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591C1A932270F35A000E7464 /* LaunchScreen.storyboard */; };
+		591C1AA02270F35A000E7464 /* Escort_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C1A9F2270F35A000E7464 /* Escort_DriverTests.swift */; };
+		591C1AAB2270F35A000E7464 /* Escort_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C1AAA2270F35A000E7464 /* Escort_DriverUITests.swift */; };
+		59DFE06E2272334F00DAF52F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFE06D2272334F00DAF52F /* AppConstants.swift */; };
+		59DFE0702272343100DAF52F /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFE06F2272343100DAF52F /* Rider.swift */; };
+		59DFE0722272345200DAF52F /* RideStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFE0712272345200DAF52F /* RideStatus.swift */; };
+		61BC9E9728790F685729A597 /* Pods_Escort_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AED599551790D886C8ECC0 /* Pods_Escort_Driver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		591C1A9C2270F35A000E7464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591C1A7F2270F35A000E7464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591C1A862270F35A000E7464;
+			remoteInfo = "Escort Driver";
+		};
+		591C1AA72270F35A000E7464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591C1A7F2270F35A000E7464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591C1A862270F35A000E7464;
+			remoteInfo = "Escort Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56AED599551790D886C8ECC0 /* Pods_Escort_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Escort_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591C1A872270F35A000E7464 /* Escort Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Escort Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591C1A8A2270F35A000E7464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		591C1A8C2270F35A000E7464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		591C1A8F2270F35A000E7464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		591C1A912270F35A000E7464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		591C1A942270F35A000E7464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		591C1A962270F35A000E7464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591C1A9B2270F35A000E7464 /* Escort DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escort DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591C1A9F2270F35A000E7464 /* Escort_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escort_DriverTests.swift; sourceTree = "<group>"; };
+		591C1AA12270F35A000E7464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591C1AA62270F35A000E7464 /* Escort DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escort DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591C1AAA2270F35A000E7464 /* Escort_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escort_DriverUITests.swift; sourceTree = "<group>"; };
+		591C1AAC2270F35A000E7464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DFE06D2272334F00DAF52F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		59DFE06F2272343100DAF52F /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		59DFE0712272345200DAF52F /* RideStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideStatus.swift; sourceTree = "<group>"; };
+		6F7BEC89FBDF80DA61D997F8 /* Pods-Escort Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Escort Driver.release.xcconfig"; path = "Target Support Files/Pods-Escort Driver/Pods-Escort Driver.release.xcconfig"; sourceTree = "<group>"; };
+		86577CB8CF63BFE9D8712AC7 /* Pods-Escort Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Escort Driver.debug.xcconfig"; path = "Target Support Files/Pods-Escort Driver/Pods-Escort Driver.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591C1A842270F35A000E7464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC9E9728790F685729A597 /* Pods_Escort_Driver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C1A982270F35A000E7464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C1AA32270F35A000E7464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591C1A7E2270F35A000E7464 = {
+			isa = PBXGroup;
+			children = (
+				591C1A892270F35A000E7464 /* Escort Driver */,
+				591C1A9E2270F35A000E7464 /* Escort DriverTests */,
+				591C1AA92270F35A000E7464 /* Escort DriverUITests */,
+				591C1A882270F35A000E7464 /* Products */,
+				682851D42A2EF1A255785464 /* Pods */,
+				C834A48174C732722EA7201E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		591C1A882270F35A000E7464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591C1A872270F35A000E7464 /* Escort Driver.app */,
+				591C1A9B2270F35A000E7464 /* Escort DriverTests.xctest */,
+				591C1AA62270F35A000E7464 /* Escort DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591C1A892270F35A000E7464 /* Escort Driver */ = {
+			isa = PBXGroup;
+			children = (
+				591C1A8A2270F35A000E7464 /* AppDelegate.swift */,
+				591C1A8C2270F35A000E7464 /* ViewController.swift */,
+				59DFE06D2272334F00DAF52F /* AppConstants.swift */,
+				59DFE06F2272343100DAF52F /* Rider.swift */,
+				59DFE0712272345200DAF52F /* RideStatus.swift */,
+				591C1A8E2270F35A000E7464 /* Main.storyboard */,
+				591C1A912270F35A000E7464 /* Assets.xcassets */,
+				591C1A932270F35A000E7464 /* LaunchScreen.storyboard */,
+				591C1A962270F35A000E7464 /* Info.plist */,
+			);
+			path = "Escort Driver";
+			sourceTree = "<group>";
+		};
+		591C1A9E2270F35A000E7464 /* Escort DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				591C1A9F2270F35A000E7464 /* Escort_DriverTests.swift */,
+				591C1AA12270F35A000E7464 /* Info.plist */,
+			);
+			path = "Escort DriverTests";
+			sourceTree = "<group>";
+		};
+		591C1AA92270F35A000E7464 /* Escort DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				591C1AAA2270F35A000E7464 /* Escort_DriverUITests.swift */,
+				591C1AAC2270F35A000E7464 /* Info.plist */,
+			);
+			path = "Escort DriverUITests";
+			sourceTree = "<group>";
+		};
+		682851D42A2EF1A255785464 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86577CB8CF63BFE9D8712AC7 /* Pods-Escort Driver.debug.xcconfig */,
+				6F7BEC89FBDF80DA61D997F8 /* Pods-Escort Driver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C834A48174C732722EA7201E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56AED599551790D886C8ECC0 /* Pods_Escort_Driver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591C1A862270F35A000E7464 /* Escort Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591C1AAF2270F35A000E7464 /* Build configuration list for PBXNativeTarget "Escort Driver" */;
+			buildPhases = (
+				FC49E26F52F46E414E2769E9 /* [CP] Check Pods Manifest.lock */,
+				591C1A832270F35A000E7464 /* Sources */,
+				591C1A842270F35A000E7464 /* Frameworks */,
+				591C1A852270F35A000E7464 /* Resources */,
+				69839361E1E4924AD7728918 /* [CP] Embed Pods Frameworks */,
+				EF3259BCA6F0508E58E1BF8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Escort Driver";
+			productName = "Escort Driver";
+			productReference = 591C1A872270F35A000E7464 /* Escort Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		591C1A9A2270F35A000E7464 /* Escort DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591C1AB22270F35A000E7464 /* Build configuration list for PBXNativeTarget "Escort DriverTests" */;
+			buildPhases = (
+				591C1A972270F35A000E7464 /* Sources */,
+				591C1A982270F35A000E7464 /* Frameworks */,
+				591C1A992270F35A000E7464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591C1A9D2270F35A000E7464 /* PBXTargetDependency */,
+			);
+			name = "Escort DriverTests";
+			productName = "Escort DriverTests";
+			productReference = 591C1A9B2270F35A000E7464 /* Escort DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		591C1AA52270F35A000E7464 /* Escort DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591C1AB52270F35A000E7464 /* Build configuration list for PBXNativeTarget "Escort DriverUITests" */;
+			buildPhases = (
+				591C1AA22270F35A000E7464 /* Sources */,
+				591C1AA32270F35A000E7464 /* Frameworks */,
+				591C1AA42270F35A000E7464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591C1AA82270F35A000E7464 /* PBXTargetDependency */,
+			);
+			name = "Escort DriverUITests";
+			productName = "Escort DriverUITests";
+			productReference = 591C1AA62270F35A000E7464 /* Escort DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591C1A7F2270F35A000E7464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Viet Hong Nguyen";
+				TargetAttributes = {
+					591C1A862270F35A000E7464 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					591C1A9A2270F35A000E7464 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 591C1A862270F35A000E7464;
+					};
+					591C1AA52270F35A000E7464 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 591C1A862270F35A000E7464;
+					};
+				};
+			};
+			buildConfigurationList = 591C1A822270F35A000E7464 /* Build configuration list for PBXProject "Escort Driver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591C1A7E2270F35A000E7464;
+			productRefGroup = 591C1A882270F35A000E7464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591C1A862270F35A000E7464 /* Escort Driver */,
+				591C1A9A2270F35A000E7464 /* Escort DriverTests */,
+				591C1AA52270F35A000E7464 /* Escort DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591C1A852270F35A000E7464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591C1A952270F35A000E7464 /* LaunchScreen.storyboard in Resources */,
+				591C1A922270F35A000E7464 /* Assets.xcassets in Resources */,
+				591C1A902270F35A000E7464 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C1A992270F35A000E7464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C1AA42270F35A000E7464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69839361E1E4924AD7728918 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Escort Driver/Pods-Escort Driver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PushNotifications/PushNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PushNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Escort Driver/Pods-Escort Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3259BCA6F0508E58E1BF8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Escort Driver/Pods-Escort Driver-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Escort Driver/Pods-Escort Driver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC49E26F52F46E414E2769E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Escort Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591C1A832270F35A000E7464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DFE0702272343100DAF52F /* Rider.swift in Sources */,
+				591C1A8D2270F35A000E7464 /* ViewController.swift in Sources */,
+				59DFE06E2272334F00DAF52F /* AppConstants.swift in Sources */,
+				591C1A8B2270F35A000E7464 /* AppDelegate.swift in Sources */,
+				59DFE0722272345200DAF52F /* RideStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C1A972270F35A000E7464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591C1AA02270F35A000E7464 /* Escort_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591C1AA22270F35A000E7464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591C1AAB2270F35A000E7464 /* Escort_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		591C1A9D2270F35A000E7464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591C1A862270F35A000E7464 /* Escort Driver */;
+			targetProxy = 591C1A9C2270F35A000E7464 /* PBXContainerItemProxy */;
+		};
+		591C1AA82270F35A000E7464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591C1A862270F35A000E7464 /* Escort Driver */;
+			targetProxy = 591C1AA72270F35A000E7464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		591C1A8E2270F35A000E7464 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591C1A8F2270F35A000E7464 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		591C1A932270F35A000E7464 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591C1A942270F35A000E7464 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		591C1AAD2270F35A000E7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		591C1AAE2270F35A000E7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591C1AB02270F35A000E7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86577CB8CF63BFE9D8712AC7 /* Pods-Escort Driver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K655VH423B;
+				INFOPLIST_FILE = "Escort Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Escort-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		591C1AB12270F35A000E7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7BEC89FBDF80DA61D997F8 /* Pods-Escort Driver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K655VH423B;
+				INFOPLIST_FILE = "Escort Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Escort-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		591C1AB32270F35A000E7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K655VH423B;
+				INFOPLIST_FILE = "Escort DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Escort-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escort Driver.app/Escort Driver";
+			};
+			name = Debug;
+		};
+		591C1AB42270F35A000E7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K655VH423B;
+				INFOPLIST_FILE = "Escort DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Escort-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escort Driver.app/Escort Driver";
+			};
+			name = Release;
+		};
+		591C1AB62270F35A000E7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K655VH423B;
+				INFOPLIST_FILE = "Escort DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Escort-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escort Driver";
+			};
+			name = Debug;
+		};
+		591C1AB72270F35A000E7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K655VH423B;
+				INFOPLIST_FILE = "Escort DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Escort-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escort Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		591C1A822270F35A000E7464 /* Build configuration list for PBXProject "Escort Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591C1AAD2270F35A000E7464 /* Debug */,
+				591C1AAE2270F35A000E7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591C1AAF2270F35A000E7464 /* Build configuration list for PBXNativeTarget "Escort Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591C1AB02270F35A000E7464 /* Debug */,
+				591C1AB12270F35A000E7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591C1AB22270F35A000E7464 /* Build configuration list for PBXNativeTarget "Escort DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591C1AB32270F35A000E7464 /* Debug */,
+				591C1AB42270F35A000E7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591C1AB52270F35A000E7464 /* Build configuration list for PBXNativeTarget "Escort DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591C1AB62270F35A000E7464 /* Debug */,
+				591C1AB72270F35A000E7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591C1A7F2270F35A000E7464 /* Project object */;
+}

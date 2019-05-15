@@ -1,0 +1,6 @@
+framework module Pods_Escort_Driver {
+  umbrella header "Pods-Escort Driver-umbrella.h"
+
+  export *
+  module * { export * }
+}
